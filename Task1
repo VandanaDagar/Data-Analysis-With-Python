@@ -1,0 +1,35 @@
+# Creating a list, a dictionary, and a set
+my_list = [1, 2, 3]
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+my_set = {1, 2, 3}
+
+# Operations on the list
+print("Original list:", my_list)
+my_list.append(4)  # Adding an element to the list
+print("List after adding 4:", my_list)
+my_list.remove(2)  # Removing an element from the list
+print("List after removing 2:", my_list)
+my_list[0] = 10    # Modifying an element in the list
+print("List after modifying first element to 10:", my_list)
+
+# Operations on the dictionary
+print("\nOriginal dictionary:", my_dict)
+my_dict['d'] = 4  # Adding a key-value pair to the dictionary
+print("Dictionary after adding {'d': 4}:", my_dict)
+del my_dict['b']  # Removing a key-value pair from the dictionary
+print("Dictionary after removing 'b':", my_dict)
+my_dict['a'] = 10  # Modifying a value in the dictionary
+print("Dictionary after modifying 'a' to 10:", my_dict)
+
+# Operations on the set
+print("\nOriginal set:", my_set)
+my_set.add(4)  # Adding an element to the set
+print("Set after adding 4:", my_set)
+my_set.remove(2)  # Removing an element from the set
+print("Set after removing 2:", my_set)
+# Note: Sets do not support indexing or modifying elements directly
+
+# Final state of all data structures
+print("\nFinal list:", my_list)
+print("Final dictionary:", my_dict)
+print("Final set:", my_set)
